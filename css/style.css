@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
 
 /* Header part */
-.header{
+.header {
     height: 808px;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
 }
-.header-contain{
+
+.header-contain {
     text-align: right;
 }
-.header-title{
+
+.header-title {
     color: #FFF;
     font-size: 65px;
     font-weight: 700;
@@ -20,14 +22,16 @@
     padding-left: 1040px;
     padding-right: 230px;
 }
-.header-description{
+
+.header-description {
     color: #FFF;
     line-height: 26px;
     margin-top: 24px;
     padding-left: 1140px;
     padding-right: 230px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
@@ -37,5 +41,179 @@
     margin-right: 230px;
     margin-top: 32px;
     border: 0;
-    
+
+}
+
+.section {
+    margin-top: 140px;
+}
+
+/* About Section Style */
+.about {
+    display: flex;
+}
+
+.about-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    padding-left: 200px;
+    padding-right: 322px;
+}
+
+.about-description {
+    color: #444343;
+    line-height: 26px;
+    padding-left: 200px;
+    padding-right: 322px;
+    margin-top: 24px;
+}
+
+.point i {
+    color: #16D887;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.point {
+    line-height: 26px;
+    padding-left: 200px;
+    padding-right: 322px;
+    margin-top: 16px;
+}
+
+.about-image {
+    padding-left: 277px;
+}
+
+/* My Plans Section */
+.plans-contain {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    padding-left: 420px;
+    padding-right: 390px;
+}
+
+.plans-section {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 140px;
+    margin-bottom: 53px;
+}
+
+.plans-title {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.plans-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Contact Section style*/
+.contact-section {
+    margin-top: 140px;
+}
+
+.contact-contain {
+    height: 300px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-left: 440px;
+    margin-right: 440px;
+}
+
+.contact-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 500px;
+    padding-left: 64px;
+    padding-top: 60px;
+}
+
+.btn-call {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 36px;
+    margin-left: 64px;
+    margin-top: 45px;
+    border: 0;
+}
+
+/* Footer Section Style */
+.footer {
+    margin-top: 140px;
+    background-color: #151414;
+    height: 577px;
+}
+
+.footer-contain {
+    display: flex;
+}
+
+.footer-first-part {
+    padding: 130px 585px 0 230px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.email {
+    color: #FFF;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+}
+
+.phone {
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.footer-second-part {
+    padding: 130px 230px 0 0;
+}
+
+.form-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.footer-second-part input {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 22px 158px 22px 21px;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+
+.btn-subscribe {
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 36px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
 }
